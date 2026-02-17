@@ -3,6 +3,7 @@ from openai import AsyncOpenAI
 import os
 from dotenv import load_dotenv
 
+# Make sure to add your OPENAI_API_KEY in the .env file
 load_dotenv()
 
 # Initialize the OpenAI Client
